@@ -1,0 +1,191 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/*----------------------styling-header--------------------------*/
+#red{
+    color: rgb(252, 63, 63);
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .nav-link{
+    color: rgb(218, 211, 211)!important;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+header .nav-link:hover{
+    border-bottom: solid 2px rgb(252, 63, 63) ;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.carousel-caption{
+    position:absolute;
+    left: 0;
+    top:0;
+    font-weight: bolder;
+    color: rgb(252, 63, 63);
+}
+
+
+/******************Styling hero*********************/
+#HERO{
+    width: 100%;
+    height: 100vh;
+    background : linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Images/ankit-1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vw;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+********************Styling clients transformation***************************/
+.transformation-container{
+    text-align: center;
+}
+
+.transformation-heading{
+    color: black;
+    font-weight: bolder;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    
+}
+
+.client-pics{
+    height: 40vh;
+    width: 50vw;
+}
+
+
+/*******************Footer*****************/
+footer{
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+
+.container{
+    position: relative;
+}
+
+.col-12{
+    padding: 0;
+}
+
+.box{
+    position: absolute;
+    top:0;
+    left: 40%;
+}
+
+.before-after{
+    height: 40vh;
+    width: 25vw;
+    color: rgb(32, 32, 32);
+    display: inline;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+/*************MEDIA QUERIES*******************/
+
+@media (min-width:770px) and (max-width:1000px)
+{
+    #testimonials{
+        height: 50vh!important;
+    }
+}
+
+@media (max-width:770px)
+{
+
+    .box{
+        width: 10vw;
+        height: 8vh;
+        left:46%;
+    }
+
+    #testimonials{
+        height: 45vh!important;
+    }
+}
+
+
+@media (max-width:425px)
+{
+    .box-text{
+        font-size: 2vw;
+    }
+
+    .box{
+        width: 10vw;
+        height: 5vh;
+        left:46%;
+    }
+
+    #testimonials{
+        height: 40vh!important;
+    }
+
+    
+}
+
+@media (max-width:760px)
+{
+    .client-pics{
+        height:40vh!important;
+        width: 70vw!important;
+    }
+}
+
+/****************MEDIA END************************/
+
+
+/*Testimonials*/
+#testimonials{
+    padding: 3vh;
+    background-color:#504b4b;
+    color:#fff;
+    text-align: center;
+    height: 60vh;
+  }
+  h2{
+    color:#fff;
+    font-family:"Montserrat";
+    font-weight:bold;
+  }
+  /* #testimonials img{
+    height: 60vh;
+    width: 60vw;
+    border-radius: 100%;
+    padding-top:4%;
+  } */
+
+  #testimonials h2{
+      font-size: 3vw;
+  }
+
+  .circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circular--landscape img {
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+  }
